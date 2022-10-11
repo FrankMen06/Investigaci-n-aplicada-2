@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/localStyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Ejemplo LocalStorage</title>
+</head>
+<body>
+  
+  <h1 class="">Ejemplo LocalStorage</h1>
+  
+  <br>
+
+  <div class="form">
+    <br>
+    <br>
+    <div class="container">
+       <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" />
+
+    <label for="nombre">Password:</label>
+    <input type="text" id="password" />
+
+    <input type="button" onclick="guardarDatos()" value="Guardar datos" class="btn41-43 btn-41"/>
+    
+    <br>
+    <br>
+    <br>
+    
+    <p id="datos">Pulsa para ver tu nombre y tu password.</p>
+    <input type="button" onclick="recuperarDatos()" value="Recuperar datos" class="btn41-43 btn-41"/>
+    </div>
+
+    <br>
+    <a href="../index.html" class="btn41-43 btn-41">Volver al Index</a>
+  </div>
+
+  <br><br>
+
+
+  <!--INFORMACIÓN EXTRA-->
+  <div class="info">
+    <br>
+    <br>
+
+    <h2>Información extra</h2>
+
+    <br>
+    <div class="cont">
+      
+        <p>Para ver mejor como funciona el código, ingresar a inspección de navegador, luego "aplication"</p>
+            y donde dice "LocalStorage"LocalStorage guardará los datos en tiempo indefinido, osea estos se mantendrán aún cuando se cierre la página
+
+
+        
+    </div>
+  </div>
+
+  
+  
+    <script src="js/ejLocal.js"></script>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente </h6>
+            <p class="text-justify">Investigación Aplicada 2 sobre SessionStorage, LocalStorage e IndexedDB y con sus respectivos ejemplos</p>
+          </div>
+
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 Todos los derechos reservados
+         <a href="#">Francisco Balmore Mendoza Soriano | Daniel Alexander Portillo Rodríguez | Daniel Enrique Sánchez Gutiérrez</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+</html>

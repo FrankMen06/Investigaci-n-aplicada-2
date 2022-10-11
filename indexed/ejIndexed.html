@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>IndexedDB</title>
+    <link rel="stylesheet" href="css/indexedStyle.css">
+    <link rel="stylesheet" href="../css/footer.css">
+  </head>
+
+  <body>
+
+    <h1>Ejemplo IndexedDB</h1>
+    <br><br>
+
+    <form id="form" class="form">
+
+      <label for="task">Tareas</label>
+      <input type="text" name="task">
+
+      <select name="priority">
+            <option value="low">Bajo</option>
+            <option value="normal">Medio</option>
+            <option value="high">Alto</option>
+      </select>
+
+      <button class="button" name="button" data-action="add">Añadir Tareas</button>
+    </form>
+
+    <div id="tasks" class="tasks">
+    </div>
+
+    <br><br><br>
+    <!--INFORMACIÓN EXTRA-->
+  <div class="info">
+    <br>
+   <h2>Información extra</h2>
+
+    <div class="cont">
+      
+        <p class="pInfo">Para ver mejor como funciona el código, ingresar a "inspección de navegador", ver los resultados entre la consola y el apartado "IndexedDB", luego "tasklist" y "tasks"</p>
+        <a href="../index.html"  class="btn41-43 btn-41">volver al index</a>
+
+    </div>
+  </div>
+
+    <script src="js/ejIndexed.js"></script>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente </h6>
+            <p class="text-justify">Investigación Aplicada 2 sobre SessionStorage, LocalStorage e IndexedDB y con sus respectivos ejemplos</p>
+          </div>
+
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 Todos los derechos reservados
+         <a href="#">Francisco Balmore Mendoza Soriano | Daniel Alexander Portillo Rodríguez | Daniel Enrique Sánchez Gutiérrez</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+</footer>
+
+  </body>
+
+</html>
